@@ -1,0 +1,139 @@
+body {
+	/*background-image: url("cspitlogo.png");
+	b
+	background-repeat: space;*/
+	background-color: #E7F8F5 ;
+
+}	/* opacity : 0;
+  transition : opacity 1s ease;
+}
+
+.loaded {
+   opacity : 1;
+} */
+
+.container {
+	background-color:red;
+	font-size: 150%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content: space-around;
+	height:50px;
+}
+
+.container a {
+	color:black;
+	font-weight: bold;
+	padding-right: 20;
+	padding-left: 20;
+}
+.container a:hover {
+	color:red;
+	background-color:black; 
+	font-weight: bold;
+	padding-right: 20;
+	padding-left: 20;
+	border-radius: 15px 15px;
+}
+
+
+h1 {
+	color: red;
+	text-shadow:2px 1px 5px black;
+	text-align: center;
+	font-size: 250%;
+}
+
+
+.trans {
+	font-size: 20;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+
+}
+
+.cour {
+	padding: 20;
+	background: #3399ff;
+	list-style-type: none;
+	margin-top: 25;
+	margin-bottom: 25;
+	border-radius: 30px 30px ;
+	box-shadow: 5px 10px 10px #000000 ;
+	margin-left: 15;
+}
+.trans .cour{
+	height: 10px;
+	transition: height 0.5s;
+}
+.trans .cour:hover{
+	height: 20px;
+}
+
+
+.dept {
+	padding: 20;
+	background: #3399ff;
+	list-style-type: none;
+	margin-bottom: 25;
+	margin-top: 25;
+	border-radius: 30px 30px;
+	margin-left: 15;
+	box-shadow: 5px 10px 10px #000000 ;
+
+}
+.trans .dept{
+	height: 10px;
+	transition: height 0.5s;
+}
+.trans .dept:hover{
+	height: 20px;
+}
+
+
+.fac {
+	padding: 20;
+	background: #3399ff;
+	list-style-type: none;
+	margin-bottom: 25;
+	margin-top: 25;
+	border-radius: 30px 30px;
+	margin-left: 15;
+	box-shadow: 5px 10px 10px #000000 ;
+}
+.trans .fac{
+	height: 10px;
+	transition: height 0.5s;
+}
+.trans .fac:hover{
+	height: 20px;
+}
+
+
+
+.lib {
+	padding: 20;
+	background: #3399ff;
+	list-style-type: none;
+	margin-bottom: 25;
+	margin-top: 25;
+	border-radius: 30px 30px;
+	margin-left: 15;
+	box-shadow: 5px 10px 10px #000000 ;
+
+}
+.trans .lib{
+	height: 10px;
+	transition: height 0.5s;
+}
+.trans .lib:hover{
+	height: 20px;
+}
+
+
+
+a {	text-decoration: none;	color:"#E72114";	}
